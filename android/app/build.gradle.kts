@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.neweffortmani"
+    namespace = "com.conexa.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -25,7 +25,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.neweffortmani"
+        applicationId = "com.conexa.app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
