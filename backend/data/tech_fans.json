@@ -1,0 +1,12 @@
+{
+  "communityName": "Tech Fans",
+  "description": "A place for tech lovers",
+  "admin": "Mani",
+  "adminMajorRole": "Tech",
+  "members": [],
+  "groupLimit": 20,
+  "access": {
+    "isLocked": true,
+    "passwordHash": "$2b$10$zHOQ1zRurAgoNlZT8Us3L.cDtJoA3pHw5gCLheoveTyOqxGeC3XqC"
+  }
+}

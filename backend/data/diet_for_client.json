@@ -1,0 +1,12 @@
+{
+  "communityName": "Diet for Client",
+  "description": "we give consultant for clients",
+  "admin": "Gowtham",
+  "adminMajorRole": "Diet",
+  "members": [],
+  "groupLimit": 20,
+  "access": {
+    "isLocked": true,
+    "passwordHash": "$2b$10$FGDMix5KNZB4zzhLZwbM9ebt/wn49s/vx5LhXE9GCaIkW3Kl7.OFK"
+  }
+}
