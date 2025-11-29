@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import '../constants/app_fonts.dart';
 import '../constants/colors.dart';
 import '../service/community_service.dart';
@@ -78,6 +80,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 return CommunityListItem(
                   name: communityList[index].communityName,
                   description: communityList[index].description,
+                  onTap: () {
+                    Get.toNamed('/chat', arguments: {
+                      'name': communityList[index].communityName,
+                      'description': communityList[index].description,
+                    });
+                  },
                 );
               },
             ),
